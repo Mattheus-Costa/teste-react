@@ -1,8 +1,7 @@
 function UserGreeting({isLoggedIn = false,username = "Guest"}){
 
     const WelcomeGreeting = <div  className="welcome-greeting" >
-        <h2>Bem vindo CUZÃO, {username} </h2>
-        
+        <h2>Bem vindo, {username} </h2>
     </div>
 
     const LoginRequest = <div className="login-request">
